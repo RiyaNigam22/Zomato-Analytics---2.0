@@ -1,0 +1,23 @@
+﻿# Secrets & local environment
+.env
+.env.*
+!.env.example
+
+# Python environments & caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Large datasets & generated exports (keep folder structure via .gitkeep if needed)
+data/raw/*.csv
+data/processed/*.csv
+data/processed/analytics/*.csv
+logs/
+*.log
+
+# Power BI backup & OS artifacts
+backups/
+.DS_Store
+Thumbs.db

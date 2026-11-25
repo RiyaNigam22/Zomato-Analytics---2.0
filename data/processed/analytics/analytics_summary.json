@@ -1,0 +1,41 @@
+{
+  "generated_at_utc": "2026-11-25T14:28:51.708220+00:00",
+  "queries": {
+    "top_restaurants_by_city": {
+      "area": "A. Restaurant Performance",
+      "business_question": "Which restaurants rank highest within each city by rating and engagement volume?",
+      "row_count": 74,
+      "csv_file": "D:\\data analysis projects\\zomato-analytics-2.0\\data\\processed\\analytics\\top_restaurants_by_city.csv"
+    },
+    "cuisine_competitiveness": {
+      "area": "B. Cuisine Analytics",
+      "business_question": "How do cuisines compare across restaurant count, average price, price spread, and rating?",
+      "row_count": 20,
+      "csv_file": "D:\\data analysis projects\\zomato-analytics-2.0\\data\\processed\\analytics\\cuisine_competitiveness.csv"
+    },
+    "location_density_and_pricing": {
+      "area": "C. Location Analytics",
+      "business_question": "Which sub-locations have the highest restaurant density and how do their prices compare to city averages?",
+      "row_count": 70,
+      "csv_file": "D:\\data analysis projects\\zomato-analytics-2.0\\data\\processed\\analytics\\location_density_and_pricing.csv"
+    },
+    "menu_price_tiers": {
+      "area": "D. Menu Analytics",
+      "business_question": "How are menu items distributed across price tiers and what are the highest-priced items per restaurant?",
+      "row_count": 4,
+      "csv_file": "D:\\data analysis projects\\zomato-analytics-2.0\\data\\processed\\analytics\\menu_price_tiers.csv"
+    },
+    "historical_snapshot_changes": {
+      "area": "E. Historical Snapshot Analytics",
+      "business_question": "How do average price and rating change across distinct snapshot timestamps for a restaurant?",
+      "row_count": 25,
+      "csv_file": "D:\\data analysis projects\\zomato-analytics-2.0\\data\\processed\\analytics\\historical_snapshot_changes.csv"
+    },
+    "bi_high_rating_low_price": {
+      "area": "F. Business Intelligence",
+      "business_question": "Which restaurants achieve above-benchmark ratings at or below city average prices?",
+      "row_count": 25,
+      "csv_file": "D:\\data analysis projects\\zomato-analytics-2.0\\data\\processed\\analytics\\bi_high_rating_low_price.csv"
+    }
+  }
+}
